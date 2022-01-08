@@ -1,0 +1,6 @@
+{
+	"appId": "com.veermaruthesh.netflix.com",
+	"appName": "netflix",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

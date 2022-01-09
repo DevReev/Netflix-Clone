@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.veermaruthesh.netflix.com',
-  appName: 'netflix',
+  appId: 'io.ionic.starter',
+  appName: '.',
   webDir: 'build',
   bundledWebRuntime: false
 };

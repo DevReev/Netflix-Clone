@@ -3,11 +3,12 @@ import Row from './Row';
 import requests from './requests';
 import Banner from './Banner';
 import Nav from './Nav';
-import { IonApp} from '@ionic/react';
+import { IonApp, IonContent,} from '@ionic/react';
 
 function App() {
   return (
     <IonApp>
+      {/* <IonContent> */}
       <div className="app">
         {/* <h1>Netflix</h1> */}
         <Nav />
@@ -24,6 +25,7 @@ function App() {
         <Row title='Animation' fetchUrl={requests.fetchAnimation}/>
         <Row title='TV' fetchUrl={requests.fetchTV}/>
       </div>
+      {/* </IonContent> */}
     </IonApp>
   );
 }
